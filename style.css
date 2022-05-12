@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #12acee;
+}
+
+/* header */
+header {
+  background-color: white;
+  padding: 2em;
+  font-size: small;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 0.5em rgba(0,0,0,0.3);
+}
+
+/* main */
+.container {
+  background-color: white;
+  width: 65%;
+  max-width: 1000px;
+  margin: 8em auto;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 0.5em rgba(0,0,0,0.3);
+}
+
+/* up section */
+
+.top-section {
+  padding: 2em;
+  border-bottom: 2px solid #12acee;
+}
+
+.button {
+  all: unset;
+  color: #12acee;
+  border: 1px solid #12acee;
+  padding: 0.5em 1.5em;
+  border-radius: 5px;
+}
+
+.active {
+  background-color: #12acee;
+  color: white;
+}
+
+/* down section */
+.bottom-section {
+  padding: 3em 2em;
+}
+
+.section-element {
+  margin: 1em 0;
+}
+
+.check {
+  border: 1px solid lightgreen;
+  color: lightgreen;
+}
+
+.circle {
+  margin-top: 1em;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: x-small;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.cross {
+  border: 1px solid red;
+  color: red;
+}
+
+.pill {
+  border-radius: 500px;
+  color: white;
+  display: inline-block;
+  width: 6em;
+  height: 2em;
+  text-align: center;
+  line-height: 2em;
+}
+
+.blue {
+  background-color: #12acee;
+}
+
+.purple {
+  background-color: #9c72e4;
+}
+
+.green {
+  background-color: #64c0a9;
+}
+
+.pink {
+  background-color: #d863a1;
+}
+
+.lime {
+  background-color: #b0c926;
+}
